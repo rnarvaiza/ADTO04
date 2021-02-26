@@ -1,7 +1,10 @@
-
 import java.sql.SQLException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
+/**
+ * @author Rafa Narvaiza
+ */
 
 public class Menu {
 
@@ -11,8 +14,7 @@ public class Menu {
     private static final String QUERY_SECOND_DAILY_TASKS = "SELECT tareas.comercial_id, agenda[2:2] from tareas order by comercial_id;";
     private static final String QUERY_UPDATE ="UPDATE tareas SET agenda[1:1] = '{\"pedidos 08:30\",\"lineal 11:30\"}' WHERE comercial_id = 1";
     private static final String QUERY_SELECT = "SELECT * from tareas order by comercial_id;";
-    private static final String SECOND_PARAMETER_DAILY_TASKS_QUERY ="agenda[1]";
-    private static final String THIRD_PARAMETER_DAILY_TASKS_QUERY ="agenda[2]";
+
 
     public static void showMenu() {
 

@@ -1,10 +1,11 @@
-import org.sonatype.inject.Nullable;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
+/**
+ * @author Rafa Narvaiza
+ *
+ */
 
 public class Utils {
 
